@@ -1,10 +1,8 @@
 # Python-function-for-stochastic-modelling-of-interbedding
-Interbedding is common in geology, it occurs when beds of a particular lithology lie between or alternate with beds of a different lithology. It often reflects a cyclical change in sedimentary conditions, e.g. sea level variations.
+I developed this stochastic interbedding modelling function to generate multiple realizations of interbedded chalk and flint layers, based on the variogram-based geostatistical modelling algorithm -Sequential Gaussian Simulation. This function can be adapted to model other interbedding cases, such as the interbedding of sandstone and shale layers.
 #
 The picture below shows the interbedded chalk and flint layers at Stevns Klint in Denmark.
 ![alt text](https://github.com/GeoDQ/Stochastic-modelling-of-interbedding/blob/main/Picture1.jpg)
-# 
-I developed this stochastic interbedding modelling function to generate multiple realizations of interbedded chalk and flint layers, based on the variogram-based geostatistical modelling algorithm -Sequential Gaussian Simulation. This function can be adapted to model other interbedding cases, such as the interbedding of sandstone and shale layers.
 # 
 User specified input parameters include: 2D model size and resolution, mean and standard deviation of the thickness distribution of lithology_1 (chalk in my case), and variogram range which describes the lateral variation of the thickness
 # 
